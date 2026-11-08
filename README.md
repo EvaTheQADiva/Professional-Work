@@ -9,6 +9,7 @@ This repo is where I share the tools, templates, and write-ups I use. Everything
 | Project | What it shows | Status |
 |---|---|---|
 | [QA Leadership Toolkit](qa-leadership-toolkit/) | How I run releases, triage defects, and decide when work is done | In progress |
+| [Access Controls, Tested Like Test Cases](security-controls/access-controls-tested-like-test-cases.md) | Nine NIST SP 800-53 access controls written as Given/When/Then tests with evidence and pass/fail rules | Draft |
 | QA AI Skills | Claude Code skills that write test cases, defects, and user stories, with a person approving every output | Planned |
 | GRC Case Study | A full risk, audit, and privacy package for a fictional company | Planned |
 | AI Governance Review | An AI system assessed against NIST AI RMF 1.0 and NIST AI 600-1 | Planned |
