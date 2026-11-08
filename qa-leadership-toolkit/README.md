@@ -4,7 +4,7 @@ The templates I use to run QA: deciding what to test, deciding when to ship, and
 
 | Template | Use it when |
 |---|---|
-| [Release Go/No-Go Checklist](release-go-no-go-checklist.md) | You need a clear ship or don't-ship decision before a release |
+| [Release Go/No-Go Checklist](release-go-no-go-checklist.md) | You need to establish formal consensus to release code to production |
 | Test Strategy | Coming soon |
 | Defect Triage Workflow | Coming soon |
 | Definition of Done | Coming soon |
