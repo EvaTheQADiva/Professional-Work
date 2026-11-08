@@ -1,6 +1,6 @@
 # Professional Work
 
-I'm Eva Wyatt, a QA leader in Houston with a Master of Security Management (Cyber Security). I spent 11 years building and running a QA function, and I made the QA go/no-go call on every release.
+I'm Eva Wyatt, a QA leader in Houston with a Master of Security Management (Cyber Security). I spent years building and running a QA team. I made the QA go/no-go call on team releases.
 
 This repo is where I share the tools, templates, and write-ups I use. Everything here is rebuilt for a fictional project. None of it contains employer or client data.
 
