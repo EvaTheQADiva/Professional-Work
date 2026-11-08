@@ -75,5 +75,3 @@ This checklist is how I made that call. It's short on purpose. If a box is unche
 **Test what matters most, every time.** Some checks don't care what code changed. On a school safety product, I confirmed every release that the system flagged a sex offender at sign-in, in every environment. Children's safety was on the line.
 
 ---
-
-*Drafted with Claude Code from an interview with me, then edited from my own release experience.*
