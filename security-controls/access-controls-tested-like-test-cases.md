@@ -132,7 +132,7 @@ So I write security controls the way I write test cases: a clear condition, a cl
 **Evidence:** the role permission list; test results for every role; screenshots; access logs.
 **Pass/Fail:** fail if any role sees records outside its permissions, or any unapproved device gets in.
 
-**From experience:** I ran this test on a healthcare AI project, once for every role: doctor, nurse practitioner, nurse, and aide. For the device check, I used a device cloud like BrowserStack to sign in from devices that weren't approved.
+**From experience:** I ran this test on a healthcare AI project, once for every role: doctor, nurse practitioner, nurse, and physician assistant. For the device check, I used a device cloud like BrowserStack to sign in from devices that weren't approved.
 
 ---
 
