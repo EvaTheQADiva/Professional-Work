@@ -2,7 +2,7 @@
 
 I don't trust a control until I've seen it work. A policy that says "access is removed when someone leaves" proves nothing. A test that checks every system for that person's account does.
 
-I look at controls with two sets of eyes. As a QA leader, I ask: does it work, and can I reproduce the result? As a security management graduate studying for the CISA, I ask: does it meet the standard, and can we prove it? The critical eye is the same. The question is different.
+I look at controls with two sets of eyes. As a QA leader, I ask: does it work, and can I reproduce the result? As a security professional, I ask: does it meet the standard, and can we prove it? The critical eye is the same. The question is different.
 
 So I write security controls the way I write test cases: a clear condition, a clear action, a clear expected result, and the evidence that proves it. Each control below is mapped to NIST SP 800-53 Rev. 5. Where I've done this work for real, I added what I learned.
 
@@ -136,7 +136,7 @@ So I write security controls the way I write test cases: a clear condition, a cl
 
 ---
 
-## What I've learned beyond these ten
+## What I've learned beyond these Ten Controls
 
 **Know all the personal data.** Personal data is more than a name, birth date, and Social Security number. On a school product with UK users, we had to protect minors' health records, religion, custody agreements, sexual orientation, addresses, phone numbers, and IP addresses. That data touched so many systems that tracing it for the privacy impact assessment was the hardest part. Don't assume a control protects the data because it's supposed to. Test it. Confirm how it works, and that it does.
 
@@ -144,7 +144,7 @@ So I write security controls the way I write test cases: a clear condition, a cl
 
 **Evidence only counts if you handle it right.** My audit and forensics classes drove this home. Break the chain of custody, and the evidence might as well not exist. One missed step can decide whether a case holds up.
 
-**Some control families take patience.** When I mapped all 20 NIST 800-53 control families in a GRC bootcamp, System and Communications Protection was the hardest. It has a lot of base controls and many variations, covering encryption, secure communications, and network boundaries. Supply Chain Risk Management came next. You have to understand each vendor's risk before you can pick the right controls.
+**Some control families take patience.** When I mapped all 20 NIST 800-53 control families, System and Communications Protection was the hardest. It has a lot of base controls and many variations, covering encryption, secure communications, and network boundaries. Supply Chain Risk Management came next. You have to understand each vendor's risk before you can pick the right controls.
 
 ## How I'd use this
 - **Before an audit:** run every test, collect the evidence, and fix failures before the auditor finds them.
@@ -152,5 +152,3 @@ So I write security controls the way I write test cases: a clear condition, a cl
 - **For trends:** track pass/fail each quarter. A control that keeps failing needs a better design, not more reminders.
 
 ---
-
-*Drafted with Claude Code, then edited by me.*
